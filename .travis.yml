@@ -3,7 +3,7 @@ arch:
   - ppc64le
 language: python
 python:
-    - "3.5"
+    - "3.9"
 notifications:
     irc:
         - "chat.freenode.net#unary"
