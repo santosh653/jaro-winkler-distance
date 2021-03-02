@@ -3,8 +3,8 @@ arch:
   - ppc64le
 language: python
 python:
-    - "3.9"
-notifications:
+    - nightly
+    notifications:
     irc:
         - "chat.freenode.net#unary"
     email:
