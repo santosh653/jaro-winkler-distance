@@ -1,10 +1,15 @@
 arch:
-  - amd64
-  - ppc64le
+    - amd64
+    - ppc64le
 language: python
 python:
-    - nightly
-    notifications:
+    - "2.7"
+    - "3.7"
+    - "3.8"
+    - "3.9"
+    - "3.5"
+    - "3.6"
+notifications:
     irc:
         - "chat.freenode.net#unary"
     email:
